@@ -1,0 +1,167 @@
+body{
+    font-family: "Abril Fatface", serif;
+    font-size: 40px;
+    background-color: #F5A3C8;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+section{
+    border-radius: 25px;
+    background-color: #ED0D92;
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#controls{
+    display: none;
+}
+  
+#popup{
+    margin-top: 5svh;
+    width: 30svw;
+    height: 20svh;
+
+    align-items: center; 
+
+    justify-content: center; 
+    justify-content: center;
+    text-align: center;
+
+    display: none;
+}
+
+.Login{
+    margin-top: 10svh;
+    width: 30svw;
+    height: 50svh;
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.Login span {
+    display: block;
+    font-size: 5dvh;
+}
+
+.Login span input{
+    margin: 3svh;
+    font-size: 20px;
+    height: 5dvh;
+    width: 5dvw;
+}
+
+.Login span button{
+    font-size: 20px;
+    height: 5dvh;
+    width: 10dvw;
+}
+
+#moveRight {
+    position: absolute;
+    right: 50svw;
+    background-color: #ED0D92;
+    width: 20svh;
+    height: 23svh;
+    bottom: 7%;
+    right: 38%
+}
+#moveLeft {
+    left: 50svw;
+    position: absolute;
+    background-color: #ED0D92;
+    width: 20svh;
+    height: 23svh;
+    bottom: 7%;
+    left: 38%
+}
+
+#moveLeft i{
+    position: absolute;
+    top: 70%;
+    left: 33%;
+}
+#moveRight i{
+    position: absolute;
+    top: 70%;
+    right: 33%;
+}
+
+#loginPage{
+    display: contents;
+}
+
+.wrapper{
+    display: flex;
+    margin-top: 40px;
+    height: 60svh;
+    overflow: hidden;
+}
+
+.cell{
+    font-size: 3svh;
+    padding: 20px;
+    background-color: #F5A3C8;
+    justify-content: space-between;
+    margin: 25px 25px;
+    text-wrap: pretty;
+}
+
+#pageOne{
+    display: none
+}
+
+#pageTwo{
+    display: none
+}
+
+#pageThree{
+    display: none
+}
+
+#pageFour{
+    display: none
+}
+
+#pageFive{
+    display: none
+}
+
+#pageOne{
+    display: none
+}
+
+#pageSix{
+    display: none;
+}
+
+#pageFive .cell{
+    font-size: 2svh;
+}
+
+#pageSix .cell{
+    background-color: #ED0D92;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+#pageSix h1{
+    font-size: 20svh;
+    text-align: center;
+}
+
+#pageSix .wrapper{
+    justify-content: center;
+    font-size: 1svh;
+}
